@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  height: 100%;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+  background-color: #081c24;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner {
+  font-size: 35px;
+  color: white;
+}
+
+#meta-links-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.meta-links {
+  padding: 10px;
+  text-align: center;
+}
+
+.meta-links a {
+  color: white;
+}
+
+#search-container {
+  width: 100%;
+  height: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-bottom: 1px solid #dedede;
+}
+
+#search-icon-container {
+  color: grey;
+  margin: 0px 0px 0px auto;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 50%;
+  margin: 0px 5px;
+  font-size: 18px;
+  text-indent: 15px;
+  background-color: transparent;
+}
+
+#buttons-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0px auto 0px 0px;
+}
+
+#buttons-container button {
+  border: none;
+  outline: none;
+  padding: 5px 35px;
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  height: 100%;
+  background-color: #dedede;
+}
+
+main {
+  margin: 25px auto 25px 0px;
+  margin-top: 25px;
+  max-width: 500px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  position: relative;
+  left: 15%;
+}
+
+.card {
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 15% 15% 70%;
+      grid-template-rows: 15% 15% 70%;
+  margin: 10px auto;
+  border: 1px solid #dedede;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+}
+
+.card-title {
+  padding-left: 5px;
+  margin: 5px auto 0px 0px;
+  font-weight: bolder;
+  color: blue;
+}
+
+.card-title a {
+  color: blue;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.card-link {
+  padding-left: 5px;
+  margin: 0px auto 0px 0px;
+}
+
+.card-link a {
+  color: green;
+}
+
+.card-content {
+  padding: 5px;
+  margin: 5px auto;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 10vh;
+  }
+
+  #banner {
+    font-size: 25px;
+  }
+
+  #search-container {
+    height: 35px;
+  }
+
+  #search-icon-container {
+    color: grey;
+    margin: 0px;
+    margin-left: 5px;
+  }
+
+  input[type="text"] {
+    width: 75%;
+    margin: 0px 0px 0px 5px;
+    font-size: 15px;
+    text-indent: 5px;
+  }
+
+  #buttons-container button {
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #dedede;
+  }
+
+  main {
+    left: 0;
+    margin: 15px auto;
+  }
+
+  .card {
+    margin: 5px;
+  }
+}

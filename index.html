@@ -1,0 +1,51 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header class="section">
+    <div id="banner">
+      WIKIPEDIA VIEWER
+    </div>
+    <div id="meta-links-container">
+      <span class="meta-links" id="author">
+        <a href="ahmedtadde.com" target="_blank">by Ahmed Tadde</a>
+      </span>
+      <span class="meta-links" id="github">
+        <a href="https://github.com/ahmedtadde/fcc-wikipedia" target="_blank">
+          <i class="fa fa-github" aria-hidden="true"></i> GitHub
+        </a>
+      </span>
+      <span class="meta-links" id="codepen">
+        <a href="https://codepen.io/ahmedtadde/pen/bayZjp" target="_blank">
+          <i class="fa fa-codepen" aria-hidden="true"></i> Codepen
+        </a>
+      </span>
+    </div>
+  </header>
+
+  <section id="search-container">
+    <div id="search-icon-container">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+    <input id="search-input" type="text" placeholder="Searh Wikipedia" onfocus="this.value=''">
+    <div id="buttons-container">
+      <button id="submit-btn">Go</button>
+      <button id="random-btn">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a>
+      </button>
+    </div>
+  </section>
+
+  <main id="results">
+
+  </main>
+<script src="main.js"></script>
+</body>
+</html>
