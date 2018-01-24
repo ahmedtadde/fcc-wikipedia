@@ -207,9 +207,10 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-  header {
+  /* header {
     height: 10vh;
-  }
+    margin-bottom: 15px;
+  } */
 
   #banner {
     font-size: 25px;
