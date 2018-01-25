@@ -12,8 +12,6 @@ input.onmouseout = () => {
 input.onkeypress = (e) => {
   let keyCode = (e.keyCode ? e.keyCode : e.which);
   let text = e.target.value;
-  // console.log(keyCode);
-  // console.log(text);
 
   if (keyCode === 13){
     if (text.length >= 3){
