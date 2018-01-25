@@ -69,6 +69,11 @@ header {
           align-items: center;
 }
 
+#random-page-btn{
+  border: 2px solid #dedede;
+}
+
+
 .meta-links {
   padding: 10px;
   text-align: center;
@@ -94,7 +99,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  background-color: #dedede;
   border-bottom: 1px solid #dedede;
 }
 
@@ -116,6 +120,11 @@ header {
       -ms-flex-align: center;
           align-items: center;
 
+}
+
+.fa-search{
+  font-size: 18px;
+  padding: 10px;
 }
 
 input[type="text"] {
@@ -152,12 +161,11 @@ input[type="text"] {
   outline: none;
   padding: 5px 35px;
   background-color: transparent;
-  color: black;
+  color: grey;
   font-size: 18px;
   font-weight: bolder;
   cursor: pointer;
   height: 100%;
-  background-color: #dedede;
 }
 
 main {
@@ -246,6 +254,10 @@ main {
     margin: 0px;
   }
 
+  .fa-search{
+    font-size: 12px;
+  }
+
   input[type="text"] {
     width: 75%;
     margin: 0px;
@@ -254,10 +266,9 @@ main {
   }
 
   #buttons-container button {
-    padding: 5px 10px;
-    font-size: 15px;
+    padding: 5px;
+    font-size: 12px;
     cursor: pointer;
-    background-color: #dedede;
   }
 
   main {

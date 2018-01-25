@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Wikipedia Viewer | Ahmed Tadde</title>
+  <title>Wikipedia Search App | Ahmed Tadde</title>
   <link rel="icon" type="image/png" href="title-icon.png">
 </head>
 <body>
@@ -14,13 +14,10 @@
   <header class="section">
     <div id="banner">
       <a href="https://ahmedtadde-fcc-wikipedia.herokuapp.com/" target="_blank">
-        WIKIPEDIA VIEWER
+        WIKIPEDIA SEARCH
       </a>
     </div>
     <div id="meta-links-container">
-      <span class="meta-links" id="author">
-        <a href="http://ahmedtadde.com" target="_blank">by Ahmed Tadde</a>
-      </span>
       <span class="meta-links" id="github">
         <a href="https://github.com/ahmedtadde/fcc-wikipedia" target="_blank">
           <i class="fa fa-github" aria-hidden="true"></i> GitHub
@@ -31,6 +28,9 @@
           <i class="fa fa-codepen" aria-hidden="true"></i> Codepen
         </a>
       </span>
+      <span class="meta-links" id="random-page-btn">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Page</a>
+      </span>
     </div>
   </header>
 
@@ -38,11 +38,10 @@
     <div id="search-icon-container">
       <i class="fa fa-search" aria-hidden="true"></i>
     </div>
-    <input id="search-input" type="text" placeholder="Searh Wikipedia" onfocus="this.value=''">
+    <input id="search-input" type="text" placeholder="What are you looking for..." onfocus="this.value=''">
     <div id="buttons-container">
-      <button id="submit-btn">Go</button>
-      <button id="random-btn">
-        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a>
+      <button id="submit-btn">
+        Submit
       </button>
     </div>
   </section>

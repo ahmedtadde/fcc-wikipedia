@@ -1,11 +1,15 @@
 let input = document.getElementById('search-input');
 
 input.onmouseover = () => {
-  document.getElementById('search-icon-container').style.color = 'black';
+  ['search-icon-container','submit-btn'].map((elementId) => {
+    document.getElementById(elementId).style.color = 'black';
+  });
 }
 
 input.onmouseout = () => {
-  document.getElementById('search-icon-container').style.color = 'grey';
+  ['search-icon-container','submit-btn'].map((elementId) => {
+    document.getElementById(elementId).style.color = 'grey';
+  });
 }
 
 
